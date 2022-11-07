@@ -34,7 +34,7 @@ ul.ddmenu {
 /* ▼メインメニュー項目の装飾 */
 /* -------------------------- */
 ul.ddmenu li {
-   width: 19.2%;           /* メニュー項目の横幅(125px) */
+   width: 19%;           /* メニュー項目の横幅(125px) */
    min-width: 125px;
    display: inline-block;  /* ★1:横並びに配置する */
    list-style-type: none;  /* ★2:リストの先頭記号を消す */
@@ -106,8 +106,8 @@ video{
 }
 
 .flame{
-   border: 2px seagreen dashed;
-   background: #d1ebd7;
+   border: 2px #fd7e00 dashed;
+   background: #fdf5e6;
 }
 
 .flame2 {
@@ -157,7 +157,7 @@ footer{
    color: #ffffff;
    text-align: center;
    position: sticky;
-   top: 100vh;
+   top: 100%;
    min-width: 100%;
    max-height: 100px;
 }
@@ -167,9 +167,10 @@ img{
 }
 
 .food{
+   margin: auto;
    float: left;
-   width: 50%;
    text-align: center;
+   
    background-color: #d68454fb;
 }
 
@@ -209,11 +210,30 @@ li img{
 }
 
 .menu li{
-   text-align: center;
    list-style: none;
 } 
 
 .menu .flame{
-   margin: auto;
-   width: 40%;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.menu .flame img{
+   float: center;
+   min-width: 400px;
+   max-width: 400px;
+   min-height: 400px;
+   max-height: 400px;
+}
+
+h1 {
+   font-family: serif, sans-serif
+}
+
+h2{
+   font-family: serif, sans-serif;
+}
+
+body {
+   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
 }
